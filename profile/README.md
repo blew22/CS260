@@ -2,23 +2,29 @@
 
 ![cover](https://github.com/webprogramming260/.github/blob/main/profile/webprogrammingcover.jpg?raw=true)
 
-Welcome to Web Programming 260. By the end of this instruction you will:
+## Welcome
 
-- Understand how the world wide web works at a high level
-- Master the basics of frontend web application development
-- Master the basics of web application services
-- Be familiar with fundamental web application technologies
-- Have created your own full stack web application
+Web programming gives you practical experience with important aspects of computer science. This includes distributed systems, security, concurrency, networking, caching, data structures, databases, asynchronous execution, protocols, and efficiency.
 
-The course hosts all the repositories for the instruction and assignments. This includes interacting with [CodePen](https://codepen.io) assignments, building a demonstration application, and creating and hosting your own startup web application.
+The content for this course is represented by the following parts.
 
-- 📅 [Schedule](https://github.com/webprogramming260/.github/blob/main/profile/schedule/schedule.md)
 - 📘 [Instruction](https://github.com/webprogramming260/.github/blob/main/profile/instructionTopics.md)
 - 📱 [Simon](https://github.com/webprogramming260/.github/blob/main/profile/essentials/simon/simon.md)
 - 🚀 [Startup](https://github.com/webprogramming260/.github/blob/main/profile/essentials/startup/startup.md)
-- 💯 Assignments, quizzes, and tests are submitted through Canvas
+- 📅 [Schedule](https://github.com/webprogramming260/.github/blob/main/profile/schedule/schedule.md)
+- 💯 Grades and submissions are managed in [Canvas](https://byu.instructure.com)
 
-# Technologies
+## Outcomes
+
+By the end of this instruction you should achieve the following outcomes:
+
+1. **Web Pages**: Create interactive web applications using HTML, CSS, and JavaScript.
+1. **Web Frameworks**: Modularize, build, and package an application using a web framework.
+1. **Web Services**: Create a backend service using DNS, HTTPS, WebSocket, service endpoints, authentication, and data persistence.
+1. **Infrastructure**: Deploy applications and manage code.
+1. **Security and Design**: Appreciate production web application security and design practices.
+
+## Technologies
 
 The course covers a full stack of web programming technologies and topics.
 
@@ -41,7 +47,7 @@ The course covers a full stack of web programming technologies and topics.
 - UI Testing
 - Web design
 
-# Acknowledgements
+## Acknowledgements
 
 The instruction makes extensive use of [MDN Web Docs](https://developer.mozilla.org/) and we highly encourage you to spend many hours getting lost in their exceptional content.
 
