@@ -44,3 +44,39 @@ As part of the installation of Caddy we created two links in the Ubuntu user's h
   ```
 
   Therefore, according to this configuration, whenever Caddy receives an HTTP request for any domain name on port 80 it will use the path of the request to find a corresponding file in this directory. For example, a request for `http://yourdomainname/index.html` will look for a file named `index.html` in the `public_html` directory.
+
+## Proxy Servers
+
+A **proxy server** acts as an intermediary between a client and a server. It handles requests and responses, often providing benefits like security, anonymity, load balancing, and caching.
+
+There are two main types:
+
+### Forward Proxy
+
+- **Sits in front of the client**
+- **Forwards client requests** to external servers
+- Used for content filtering, hiding client identity, or bypassing restrictions
+
+### Reverse Proxy
+
+- **Sits in front of the server**
+- **Handles incoming client requests** and routes them to internal servers
+- Used for load balancing, SSL termination, caching, and hiding backend architecture
+
+### Proxy comparison table
+
+| Feature           | Forward Proxy              | Reverse Proxy              |
+| ----------------- | -------------------------- | -------------------------- |
+| Placement         | In front of **clients**    | In front of **servers**    |
+| Who it hides      | The **client**             | The **server**             |
+| Common use        | Anonymity, filtering       | Load balancing, protection |
+| Awareness         | Client knows it's using it | Client is unaware          |
+| Request direction | Client -> Proxy -> Server  | Client -> Proxy -> Server  |
+
+Both proxies handle **requests and responses**, so the term "reverse" doesn’t refer to data flow but to **reversed roles**.
+
+### Visualizing the Difference
+
+![Proxy servers](proxyServers.png)
+
+These diagrams show that traffic flows the same way, but with the forward proxy the client is proxied. With the reverse proxy the **role of the proxy is reversed** and the server is proxied.
