@@ -69,11 +69,11 @@ The course covers a full stack of technologies including HTML, CSS, JavaScript, 
 - [Debugging JavaScript](javascript/debuggingJavascript/debuggingJavascript.md)
 - [Debugging Node.js](javascript/debuggingNode/debuggingNode.md)
 - [Web frameworks](webFrameworks/introduction/introduction.md)
+- [Toolchains](webFrameworks/react/toolChains/toolChains.md)
+- ☑ [Vite](webFrameworks/react/vite/vite.md)
 - [React](webFrameworks/react/introduction/introduction.md)
 - ☑ [Components](webFrameworks/react/components/components.md)
 - ☑ [Router](webFrameworks/react/router/router.md)
-- [Toolchains](webFrameworks/react/toolChains/toolChains.md)
-- ☑ [Vite](webFrameworks/react/vite/vite.md)
 - ☑ [Simon React P1: Routing](simon/simonReact/simonReactP1.md)
 - 🚀 [Startup React P1: Routing](webFrameworks/startupReact/startupReactP1.md)
 
