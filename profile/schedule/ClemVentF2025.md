@@ -38,7 +38,6 @@
 
 - **Sep 3**: First day of class
 - **Nov 24-28**: Thanksgiving Holiday
-- **Feb 26**: Last day of midterm
-- **Mar 21**: Spring day
-- **April 16**: Last day of class
-- **April 23**: Last day of finals
+- **Nov 1**: Last day of midterm
+- **Dec 10**: Last day of class
+- **Dec 17**: Last day of finals
