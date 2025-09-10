@@ -137,7 +137,7 @@ Here is how you [assign an elastic IP address](https://docs.aws.amazon.com/AWSEC
 
 Assigning an elastic IP address will change the IP address for your server, but it will not change again until you release the elastic IP address. If you do terminate your server and create a new one, you can again associate the same elastic IP address with your new server.
 
-Note that your elastic IP address is allocated until your release it, not until you terminate your instance. So make sure you release it when you no longer need it. Otherwise you will get a nasty $3 bill every month.
+Note that your elastic IP address is allocated until you release it, not until you terminate your instance. So make sure you release it when you no longer need it. Otherwise you will get a nasty $3 bill every month.
 
 ## What size of server should you use?
 
