@@ -45,7 +45,7 @@ You will need the public IP address for your server. You can get the public IP a
 1. Open the AWS console in your browser and log in.
 1. Navigate to the `Route 53` service.
 1. Select the `Hosted zones` option from the menu on the left.
-1. You should see your domain name listed here. If it doesn't then the registration did not complete, or it is still pending. In that case go review the information found under `Domains > Pending requests`.
+1. You should see your domain name listed here. If it doesn't show up, then the registration did not complete, or it is still pending. In that case go review the information found under `Domains > Pending requests`.
 1. Click on your domain name to view the details. This should display existing DNS records with types such as `NS`, and `SOA`.
 1. First, create the root domain DNS record. This will associate your domain name with your server's IP address and allow you to use your domain name in the browser to navigate to your server.
    1. Press the `Create record` button.
