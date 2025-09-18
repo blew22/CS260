@@ -26,14 +26,14 @@ Assuming you already have an AWS account it is time to create your web server.
 
    ![AWS Instance name](webServerAWSName.jpg)
 
-1. We have created an Amazon Machine Image (AMI) for you to use as the base for your server. It has Ubuntu, Node.js, NVM, Caddy Server, and PM2 built right in so that you do not have to install them. Paste this AMI ID (`ami-018f3a022e128a6b2`) into the search box and press enter. Then select the `Community AMIs` tab. If no matches are found, make sure that your region is set to `US East (N. Virginia) - us-east-1` (You can check this by looking in the top right corner of the page).
+1. We have created an Amazon Machine Image (AMI) for you to use as the base for your server. It has Ubuntu, Node.js, NVM, Caddy Server, and PM2 built right in so that you do not have to install them. Paste this AMI ID (`ami-094c4a0be0b642a24`) into the search box and press enter. Then select the `Community AMIs` tab. If no matches are found, make sure that your region is set to `US East (N. Virginia) - us-east-1` (You can check this by looking in the top right corner of the page).
 
    ![AWS Instance name](webServerAWSAmi.jpg)
 
    This should display the information about the class AMI. If the AMI ID matches `ami-094c4a0be0b642a24` select it.
 
 <!---
-v7 ami in case we need to fall back: ami-018f3a022e128a6b2
+v7 AMI in case we need to fall back: ami-018f3a022e128a6b2
 -->
 
    ![AWS class AMI](webServerAWS260Ami.jpg)
