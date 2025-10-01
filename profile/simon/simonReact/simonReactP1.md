@@ -295,6 +295,10 @@ Our directory structure should look like the following at this point.
 ├─ src             # Frontend React code
 │    ├─ app.jsx    # React app component
 │    └─ app.css    # React app CSS
+│    └─ about    
+│    └─ login
+│    └─ play    
+│    └─ scores    
 ├─ index.html      # App entry HTML
 └─ index.jsx       # React entry point
 
@@ -318,10 +322,11 @@ export function Login() {
 }
 ```
 
-The directory structure should look like this once all the view component stubs are created.
+The `src` directory structure should look like this once all the view component stubs are created.
 
 ```sh
 └─ src
+    ├─ app.jsx                 # Top level component
     ├─ app.css                 # Top level styles
     ├─ about                   # About component
     │   └─ about.jsx
