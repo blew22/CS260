@@ -68,7 +68,7 @@ Then open the `package.json` file, found in the root of the project, that was cr
 
 | Command | Purpose                                                                                                                                                            |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| dev     | Bundles a debugging version of the React application and starts Vite's hot reloading HTTP server the hosts the newly bundled application for development purposes. |
+| dev     | Bundles a debugging version of the React application and starts Vite's hot reloading HTTP server that hosts the newly bundled application for development purposes. |
 | build   | Bundles a production version of the React application and copies it to the `dist` directory.                                                                       |
 | preview | Bundles a production version of the React application and starts Vite's hot reloading HTTP server. This is used to test a production version before deployment.    |
 
