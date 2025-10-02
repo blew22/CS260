@@ -148,7 +148,7 @@ Now the background color will toggle every time you click on the page.
 
 This code demonstrates several important concepts of React.
 
-1. Creating componentize representations of HTML and JavaScript.
+1. Creating componentized representations of HTML and JavaScript.
 1. Storing component state as component variables.
 1. Reacting to the user by altering the component's state.
 
